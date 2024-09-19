@@ -3,5 +3,5 @@ b = 30
 
 #there is a bug in line6 where subraction is done inplace of addition
 #modify the '+' to '-'
-sub = a + b
-print(sub)
+sub = a - b #chnaged it to subtraction yay
+print("Subtraction",sub)
