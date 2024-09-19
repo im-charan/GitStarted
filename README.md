@@ -1,2 +1,1 @@
-Add content about this repo
-ediing it
+  we have learned about github and git. How we can use github to make progress in our career and we also learned about what open source project is and how to contribute to the projects. We also learned about useful websites to practice questions asked in intreview and more. We also had a fun quizz sesssion as well.
