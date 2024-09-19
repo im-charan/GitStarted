@@ -1,5 +1,5 @@
 a = 10 
 b = 20 
-print("hello")
+print("hello guys")
 prod = a*b
 print(prod)
