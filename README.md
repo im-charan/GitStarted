@@ -1,2 +1,2 @@
 Add content about this repo
-ediing it
+editing it
